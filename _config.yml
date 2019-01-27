@@ -74,7 +74,8 @@ pagination_dir: page
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 # theme: landscape
-theme: freemind
+# theme: freemind
+theme: Hacker
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -83,3 +84,24 @@ deploy:
   repo: https://github.com/caishijian2008/caishijian2008.github.io.git
   branch: master
   messsage: 
+
+################# Hacker主题start ###########################
+# gitment
+gitment: false
+gitment_owner:
+gitment_repo:
+gitment_client_id:
+gitment_client_secret:
+
+# valine comment
+valine: false
+leancloud_id:
+leancloud_key:
+
+# disqus comment
+disqus: false
+disqus_shortname:
+
+# google analytics
+googleTrackId:
+################# Hacker主题end #############################
