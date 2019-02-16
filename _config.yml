@@ -5,9 +5,9 @@
 # Site
 title: 空泥叽哇
 subtitle:
-description:
-keywords:
-author: John Doe
+description: 个人技术博客，转载或自己在项目开发时的一些记录
+keywords: 博客，技术博客，JavaScript，js，HTML/HTML5，CSS/CSS3，Linux，Node.js，PHP等
+author: Cai Shijian
 language: zh
 timezone:
 
@@ -29,7 +29,7 @@ i18n_dir: :lang
 skip_render:
 
 # Writing
-new_post_name: :title.md # File name of new posts
+new_post_name: :year-:month-:day-:title.md # File name of new posts
 default_layout: post
 titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab

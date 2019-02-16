@@ -1,20 +1,25 @@
 # caishijian2008.github.io
-Github Page 博客
+- 本Github Page 博客，基于Hexo。
+- 关于Hexo的使用，可参考官方网站文档[hexo.io](https://hexo.io/zh-cn/docs/)
 
 ## 安装与使用
-* git clone https://github.com/caishijian2008/mygithubpage.git Hexo
-* cd Hexo
-* npm install
-* hexo clean
-* hexo generate  /  hexo g
-* hexo deploy  /  hexo d
-* 浏览器访问 https://caishijian2008.github.io/
+``` bash
+git clone https://github.com/caishijian2008/mygithubpage.git Hexo
+cd Hexo
+npm install
+hexo clean  （清除已生成的静态文件）
+hexo generate  /  hexo g (生成的静态文件。-d: 文件生成后立即部署网站, -w: 监视文件变动)
+hexo deploy  /  hexo d  （部署）
+浏览器访问 https://caishijian2008.github.io/
+```
 
 ## 发布文章
-```
+``` bash
 hexo new [layout] <title>
 ```
 eg.
-```
+``` bash
 hexo new post 'My First Post'
+OR
+hexo new 'My First Post'
 ```
