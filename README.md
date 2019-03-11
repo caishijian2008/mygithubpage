@@ -11,6 +11,9 @@ hexo clean  （清除已生成的静态文件）
 hexo generate  /  hexo g (生成的静态文件。-d: 文件生成后立即部署网站, -w: 监视文件变动)
 hexo deploy  /  hexo d  （部署）
 浏览器访问 https://caishijian2008.github.io/
+
+PS：
+hexo g -d   // 生成静态文件并立即部署
 ```
 
 ## 发布文章
